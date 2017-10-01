@@ -42,11 +42,9 @@
 // Carousel
 // Close
 // Code
+//every theme setting
 
 
-//
-// Color system
-//
 
 $white:  #fff !default;
 $gray-100: #f8f9fa !default;
@@ -835,3 +833,66 @@ $kbd-bg:                      $gray-900 !default;
 
 $pre-color:                   $gray-900 !default;
 $pre-scrollable-max-height:   340px !default;
+
+
+// 
+// every theme setting
+// 
+
+
+
+//Fonts
+$Montserrat :'Montserrat', sans-serif, Arial !important;
+$roboto   :'Roboto', sans-serif, Arial !important;
+$dfont    :Arial, Helvetica, sans-serif !important;
+$tfont    :"Times New Roman", Georgia, Serif !important;
+$fontaw   :FontAwesome !important;
+
+//Theme
+$btcolor1 :#474747; // black
+$btcolor2 :#6bb3d8; // Sky
+$btcolor3 :#f69323; // Orange
+$btcolor4 :#f1f2f2; // grey
+
+
+$bfsize   :16px;
+$bfweight :normal;
+$bffamily :$Montserrat;
+$bfcolor  :$btcolor1;
+
+$linkColor  :$btcolor1;
+$semibold :500;
+$lighter  :300;
+
+//Headings
+$hdffamily  :$Montserrat;
+$hdfweight  :normal;
+$hdColor  :$btcolor1;
+$hd1    :$bfsize + 29;
+$hd2    :$bfsize + 18;
+$hd3    :$bfsize + 14;
+$hd4    :$bfsize + 10;
+$hd5    :$bfsize + 5;
+$hd6    :$bfsize + 1;
+
+
+$font-size-h1:            $hd1;
+$font-size-h2:            $hd2;
+$font-size-h3:            $hd3;
+$font-size-h4:            $hd4;
+$font-size-h5:            $hd5;
+$font-size-h6:            $hd6;
+//
+// Color system
+//
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000;
+$gray-darker:            #222;
+$gray-dark:              #333;
+$gray:                   #999;
+$gray-light:             #ccc;
+$gray-lighter:           #eee;
+$gray-lightest:          #f8f8f8;
